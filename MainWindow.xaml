@@ -1,0 +1,26 @@
+﻿<Window x:Class="Wpfwebapp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpfwebapp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="โปรแกรมคำนวน" HorizontalAlignment="Center" Margin="0,23,0,0" VerticalAlignment="Top" FontSize="22" FontWeight="Bold"/>
+        <Label Content="ใส่รายได้" HorizontalAlignment="Left" Margin="260,97,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="ใส่รายจ่าย" HorizontalAlignment="Left" Margin="247,153,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtInCome" HorizontalAlignment="Left" Margin="351,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="30" FontSize="20"/>
+        <TextBox x:Name="txtExPenses" HorizontalAlignment="Left" Margin="351,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="30" FontSize="20"/>
+        <Label Content="ราคาของที่ต้องการ" HorizontalAlignment="Left" Margin="184,200,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Margin="351,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="30" FontSize="20"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="547,153,0,0" VerticalAlignment="Top" Width="100" Height="50" FontSize="20" Click="Button_Click"/>
+        <Label Content="ต้องเก็บเงิน" HorizontalAlignment="Left" Margin="240,290,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="เดือน" HorizontalAlignment="Left" Margin="552,286,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="เดือนละ" HorizontalAlignment="Left" Margin="267,353,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtResult2" HorizontalAlignment="Left" Margin="351,356,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="30" FontSize="20"/>
+        <Label Content="บาท" HorizontalAlignment="Left" Margin="555,349,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtResult" HorizontalAlignment="Left" Margin="351,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="30" FontSize="20"/>
+
+    </Grid>
+</Window>
